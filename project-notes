@@ -1,0 +1,5 @@
+- to get a snapshop of all the collections we have we use db.collection('name of the table').get() this gets an array of all the items inside this table.
+
+- to get the actual data we do a forEach of the snapshop. snapshot.docs.forEach(eachDoc => console.log(doc.data())).
+
+- to update we use db.collection.doc(pass the id).update({new obj}) and it will update it.
